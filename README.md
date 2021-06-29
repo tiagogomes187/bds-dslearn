@@ -36,6 +36,12 @@
 >
 > Uma tarefa pode ter um peso, uma data de entrega, um número de questões e a quantidade mínima de acertos necessários para ser aceita. Quando um aluno entrega a tarefa, esta fica aguardando pelo feedback do professor, e ela pode ser aceita ou rejeitada.
 
+![](https://github.com/tiagogomes187/assets/blob/main/modelo-conceitual-antes-do-forum.png)
+
+![](https://github.com/tiagogomes187/assets/blob/main/modelo-conceitual-com-forum.png)
+
+![](https://github.com/tiagogomes187/assets/blob/main/DSLearn%20Bootcamp.png)
+
 # Autor
 
 Tiago Gomes de Lima<br>
