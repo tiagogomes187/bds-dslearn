@@ -22,7 +22,7 @@ public class Enrollment {
 	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
 	private Instant refundMoment;
 	private boolean available;
-	private boolean onlyUpadate;
+	private boolean onlyUpdate;
 
 	public Enrollment() {
 	}
@@ -35,7 +35,7 @@ public class Enrollment {
 		this.enrollMoment = enrollMoment;
 		this.refundMoment = refundMoment;
 		this.available = available;
-		this.onlyUpadate = onlyUpadate;
+		this.onlyUpdate = onlyUpadate;
 	}
 
 	public User getStudent() {
@@ -79,11 +79,11 @@ public class Enrollment {
 	}
 
 	public boolean isOnlyUpadate() {
-		return onlyUpadate;
+		return onlyUpdate;
 	}
 
 	public void setOnlyUpadate(boolean onlyUpadate) {
-		this.onlyUpadate = onlyUpadate;
+		this.onlyUpdate = onlyUpadate;
 	}
 
 }
